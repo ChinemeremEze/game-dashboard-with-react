@@ -1,0 +1,71 @@
+.active
+{
+  color: red;
+}
+
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+span{
+	font-size: 2em;
+	border: 2px solid black;
+	margin-left: 80px;
+	background-color: lightgreen;
+	text-decoration:none;
+}
+#root{
+	margin: 50px;
+
+  background-color: lightblue;
+  text-align:center;
+
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+table{
+	 margin-left:auto; 
+	 margin-right:auto;
+	border: 1px solid black;
+}
+ td{
+	border: 1px solid black;
+}
+#add{
+	background-color:green;
+}
+
+#edit{
+	background-color:blue;
+}
+
+#delete{
+	background-color:red;
+}
